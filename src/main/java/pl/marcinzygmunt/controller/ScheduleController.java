@@ -2,11 +2,11 @@ package pl.marcinzygmunt.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import pl.marcinzygmunt.controller.model.JobInfo;
 import pl.marcinzygmunt.service.ScheduleService;
+
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
@@ -17,9 +17,12 @@ public class ScheduleController {
 
     @GetMapping("/schedule")
     public ResponseEntity<?> schedule(@RequestParam(defaultValue = "5") int offsetSeconds) {
-        scheduleService.scheduleJob(offsetSeconds);
-        return ResponseEntity.ok().build();
+        UUID jobID = scheduleService.scheduleJob(offsetSeconds);
+        return ResponseEntity.ok(new JobInfo(jobID));
     }
+
+
+
 
 
 }

@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096d0e8c-e9b6-42dc-be78-e05ac38c4582" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/BatchJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/EnqueueJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/InMemoryStorageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/JobRunrApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/ScheduledJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/EnqueueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/ScheduleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/EnqueueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/SampleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/ScheduleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="096d0e8c-e9b6-42dc-be78-e05ac38c4582" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobrunr_dash_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobrunr_dash_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/DeleteJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/model/JobInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/DeleteJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/EnqueueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/EnqueueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/controller/ScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/EnqueueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/EnqueueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/marcinzygmunt/service/ScheduleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +58,17 @@
     "Application.JobRunrApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Marcin/IdeaProjects/JobRunr",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\IdeaProjects\JobRunr" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.marcinzygmunt.service" />
       <recent name="pl.marcinzygmunt.controller" />
@@ -109,6 +111,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722075924508</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1722199613252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722199613252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
